@@ -29,3 +29,6 @@ phrases = [
 module.exports = (robot) ->
   robot.respond /dinklebot/, (msg) ->
     msg.send msg.random(phrases)
+
+  robot.hear /cabal/, (msg) ->
+    msg.send "CABAL AGAIN?"
