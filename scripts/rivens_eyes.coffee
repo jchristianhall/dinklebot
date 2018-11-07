@@ -38,5 +38,4 @@ module.exports = (robot) ->
       for j in [0...10*SLOT_WIDTH]
         message += eye_graph[Math.floor(i/SLOT_HEIGHT)][Math.floor(j/SLOT_WIDTH)]
       message += '\n'
-    res.send message
-
+    res.send '```'+ message + '```'
