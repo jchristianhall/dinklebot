@@ -15,7 +15,7 @@ NIL = ' '
 EYE = '.'
 HIT = '#'
 
-SLOT_SIZE = 15
+SLOT_SIZE = 2
 SLOT_WIDTH = SLOT_SIZE
 SLOT_HEIGHT = Math.ceil(SLOT_SIZE*0.66)
 
